@@ -192,7 +192,7 @@ h2::after{
 }
 
 .button.transparente:hover{
-    border: 2px solid #fe4918;
+  border: 2px solid #fe4918;
 }
 ul {
   list-style: none;
@@ -578,23 +578,23 @@ ul.lista-precio > li {
   ul.lista-precio > li {
     float: left;
     width: 33.3%;
-     }
+  }
 }
 
 div.tabla-precio {
   border: 1px solid #e1e1e1;
   background-color: #fff;
-padding: 40px 0;
-text-align: center;
+  padding: 40px 0;
+  text-align: center;
 
 }
 
 div.tabla-precio:hover {
-transform: scale(1.3);
-border: 1px solid #fe4918;
-box-shadow: 0px 0px 50px #666;
-transition: all .3s ease;
-   }
+  transform: scale(1.3);
+  border: 1px solid #fe4918;
+  box-shadow: 0px 0px 50px #666;
+  transition: all .3s ease;
+}
 div.tabla-precio ul li{
   font-family: 'PT Sans', sans-serif;
   font-size: 14px;
@@ -613,7 +613,7 @@ div.tabla-precio ul li:before{
   color: green;
   -webkit-font-smoothing: antialiased;
   content: '\f00c';
-   }
+}
 
 div.tabla-precio h3{
   font-family: 'Oswald', sans-serif;
@@ -809,7 +809,123 @@ p.copyrithg{
 }
 
 
+/**Internas**/
+/**registro**/
 
+form.registro h3{
+  text-align: center;
+  text-transform: uppercase;
+  margin: 20px 0 0;
+}
+
+form.registro label{
+  margin-bottom: 5px;
+  font-weight: bold;
+}
+
+h4{
+  text-align: center;
+  text-transform: uppercase;
+  border-bottom: 2px solid #fe4918;
+  padding: 10px;
+  font-size: 1.2em;
+}
+
+div.caja {
+  background-color: white;
+  border: 1px solid #e1e1e1;
+  padding: 10px;
+  margin: 10px;
+}
+
+div.campo {
+  padding: 20px;
+}
+
+@media only screen and (min-width:768px){
+  div.campo{
+    float: left;
+    width: 33.3%
+  }
+}
+
+div.paquetes .tabla-precio:hover{
+  transform: none;
+  box-shadow: none;
+}
+
+div.paquetes .tabla-precio input{
+  clear: both;
+  width: 100px;
+  margin: 10px auto 0 auto;
+  display: block;
+}
+
+.contenido-dia {
+  padding: 20px;
+  /*display:none;*/
+
+}
+
+@media only screen and (min-width: 768px){
+  .contenido-dia > div {
+    float: left;
+    width: 33.3%;
+  }
+}
+
+.contenido-dia > div p{
+  text-align: left;
+}
+
+.contenido-dia > div label{
+  display: block;
+  margin-bottom: 10px;
+}
+
+.contenido-dia > div input {
+  margin-right: 10px;
+
+}
+
+.contenido-dia > div time{
+  color: #fe4918;
+  font-weight: bold;
+}
+
+/**resumen de registro */
+
+div.resumen p{
+  font-size: 1.2em;
+  text-transform: uppercase;
+
+}
+
+div.resumen .extras {
+  float: left;
+  width: 50%;
+  padding: 30px;
+}
+
+div.extras div.orden {
+  text-align: left;
+  margin-bottom: 10px;
+}
+
+div.extras div.orden input{
+  margin: 10px 0 0;
+}
+
+div.resumen div.total{
+  float: right;
+  width: 50%;
+  padding: 30px;
+}
+
+div.resumen input {
+  display: block;
+  margin: 10px auto;
+}
 /* ==========================================================================
 Helper classes
 ========================================================================== */
