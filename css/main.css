@@ -630,7 +630,6 @@ div.tabla-precio p.numero{
 
 div.mapa {
   height: 420px;
-  background-color: green;
 }
 
 /**testimoniales**/
@@ -863,7 +862,7 @@ div.paquetes .tabla-precio input{
 
 .contenido-dia {
   padding: 20px;
-  /*display:none;*/
+  display: none;
 
 }
 
@@ -925,6 +924,25 @@ div.resumen div.total{
 div.resumen input {
   display: block;
   margin: 10px auto;
+}
+
+#lista-productos {
+  background-color: #e1e1e1;
+  padding: 20px;
+  display: none;
+}
+
+#suma-total {
+  text-align: center;
+  font-size: 2em;
+  color: #fe4918;
+}
+
+#error {
+  clear: both;
+  padding: 20px;
+  text-align: center;
+  display: none;
 }
 /* ==========================================================================
 Helper classes
